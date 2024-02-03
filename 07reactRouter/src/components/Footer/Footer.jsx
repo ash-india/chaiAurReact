@@ -22,12 +22,12 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <Link to="/" className="hover:underline">
+                  <Link to="/" className={`hover:underline ${(isActive)=> isActive ? "text-orange-700":""}`}>
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="hover:underline">
+                  <Link to="/about" className={`hover:underline ${(isActive)=> isActive ? "text-orange-700":""}`}>
                     About
                   </Link>
                 </li>
@@ -40,7 +40,7 @@ export default function Footer() {
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/hiteshchoudhary"
+                    href="https://github.com/ash-india"
                     className="hover:underline"
                     target="_blank"
                     rel="noreferrer"
