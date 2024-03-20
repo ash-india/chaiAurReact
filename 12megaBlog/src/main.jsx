@@ -13,7 +13,7 @@ import {
   AllPosts,
   Login,
   Post,
-  SignUp
+  Signup
 } from './pages/index.js'
 
 const router = createBrowserRouter([
@@ -36,8 +36,8 @@ const router = createBrowserRouter([
       {
         path:"/signup",
         element:(
-          <AuthLayout authentiation={false}>
-            <SignUp />
+          <AuthLayout authentication={false}>
+            <Signup />
           </AuthLayout>
         ),
       },

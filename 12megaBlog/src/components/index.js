@@ -6,7 +6,7 @@ import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import Button from "./Button"
 import RTE from './RTE'
-import SignUp from './Signup'
+import Signup from './Signup'
 import Login from './Login'
 import PostCard from "./PostCard"
 import PostForm from "./post-form/PostForm"
@@ -22,7 +22,7 @@ export {
     Input,
     Button,
     RTE,
-    SignUp,
+    Signup,
     Login,
     PostCard,
     PostForm,

@@ -4,7 +4,7 @@ import EditPost from './EditPost'
 import AllPosts from './AllPosts'
 import Login from './Login'
 import Post from './Post'
-import SignUp from './SignUp'
+import Signup from './Signup'
 
 export {
     Home,
@@ -13,5 +13,5 @@ export {
     AllPosts,
     Login,
     Post,
-    SignUp
+    Signup,
 }
