@@ -77,6 +77,7 @@ These are present in service
 - createPost
 - updatePost
 - deletePost
+- getPost
 - getAllPost
 - addFile
 - deleteFile
@@ -116,3 +117,36 @@ In card component, showing image and title of card
 To get Image we are passing id to appwrite.bucket to get url
 
 Also we are using $id to use id, this is the syntax of appwrite
+
+
+
+#### react-hook-form
+
+useForm() provides two keywords - register, handleSubmit
+
+onSubmit method of form takes handleSubmit and handleSubmit takes login() method as parameter
+
+register is spreaded in Input component \
+We use the register function to register input fields with the form. This function is used to connect input fields to React Hook Form.
+
+***Controller***
+
+In React Hook Form, the Controller component is used to integrate third-party input components or custom input components into your forms. It's primarily used when you want to use components from UI libraries like Material-UI, Ant Design, or any custom input components while still benefiting from the form state management and validation provided by React Hook Form.
+
+
+##### RTE
+This is the editor component
+control parameter in **RTE.jsx** use to transfer the controls to react-form
+
+```Javascript
+const {register, handleSubmit, watch, setValue, control, getValues} = useForm()
+```
+
+These are the few properties provided by useForm().
+
+- register
+- watch :- watch property allows to keep monitoring a field continuously
+- control :- This control is passed to RTE which allows to transfer controls
+- setValue :- To set values in form this is used
+- getValues :- To get values from **form** this is used
+
